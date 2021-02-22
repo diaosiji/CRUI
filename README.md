@@ -26,7 +26,7 @@ We construct a dataset to meet the requirements of experiment setting. To train 
 
 ## Training Models
 
-For every category we trained a cGAN model, and test the generation capacity of the architecture under the evaluation metric. The training tips are simple, we put our datasets in the right place and followed the [pix2pix training and test tips](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/blob/master/docs/tips.md). Then we got 11 trained models, these models are right in the /pytorch-CycleGAN-and-pix2pix/checkpoints/catalogue.
+For every category we trained a cGAN model, and test the generation capacity of the architecture under the evaluation metric. The training tips are simple, we put our datasets in the right place and followed the [pix2pix training and test tips](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/blob/master/docs/tips.md). Then we got 11 trained models, these models are right in the ```/pytorch-CycleGAN-and-pix2pix/checkpoints/``` catalogue.
 
 ## Evaluation
 
