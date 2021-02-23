@@ -32,7 +32,7 @@ For every category we trained a cGAN model, and test the generation capacity of 
 
 ### Metric
 
-We adopt the [Learned Perceptual Image Patch Similarity (LPIPS)](https://github.com/richzhang/PerceptualSimilarity) as our perceptual similarity metric for its effectiveness. Utilizing the LPIPS trained models, we constructe jupyter notebook experiments to accomplish the evaluations. LPIPS simply compares two images and output a score, and a lower LPIPS metric score means higher similarity between the compared images.
+We adopt the [Learned Perceptual Image Patch Similarity (LPIPS)](https://github.com/richzhang/PerceptualSimilarity) as our perceptual similarity metric for its effectiveness. Utilizing the LPIPS trained models, we constructe jupyter notebook experiments to accomplish the evaluations. LPIPS simply compares two images and output a score, and **a lower LPIPS metric score means higher similarity between the compared images**.
 
 ### Category Evaluation
 
