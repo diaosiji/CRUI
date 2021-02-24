@@ -1,0 +1,5 @@
+In file included from ./include/caffe/common_layers.hpp:10:0,
+                 from ./include/caffe/vision_layers.hpp:10,
+                 from src/caffe/layers/relu_layer.cpp:5:
+./include/caffe/data_layers.hpp:8:18: fatal error: hdf5.h: No such file or directory
+compilation terminated.
