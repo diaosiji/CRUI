@@ -37,7 +37,7 @@ We construct a dataset to meet the requirements of experiment setting. To train 
 
 ### Dataset and pretrained models download
 
-We have published our datasets and pretrained models on google drive for common interests of researching. We probide 11 object category, you can download them at [here](). And also, we provide 11 pretrained models, you can download them at [here](). 
+We have published our datasets and pretrained models on google drive for common interests of researching. We probide 11 object category, you can download 9 categories at [here](https://drive.google.com/file/d/1eXFb1VonI1pnO_oyGOspmRMIu5yKsBoy/view?usp=sharing), the shoe and handbag dataset can be downloaded at [pix2pix datasets page](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/blob/master/docs/datasets.md). And also, we provide 11 pretrained models, you can download them at [here](). 
 
 ## Training Models
 
