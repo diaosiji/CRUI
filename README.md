@@ -10,11 +10,12 @@ Our project mainly benefit form [pix2pix](https://github.com/junyanz/pytorch-Cyc
 
 ## Dataset construction
 
+### Construction detials
+
 We construct a dataset to meet the requirements of experiment setting. To train the cGAN, images in the dataset should be paired images, which include an object image and its corresponding sketch. To test our idea, we met several challenges:
 - It is difficulty to get the corresponding hand-draw sketch. even we hire some people to draw the sketches under Amazon Mechanical Turk (AMT) mechanism, the quality of sketches would be hard to control. Thus we adopt the [HED](https://github.com/s9xie/hed) and [post-process procedure](https://github.com/phillipi/pix2pix/tree/master/scripts/edges). Please note that the post-process is necessary, it not only transform the brushes into binary edges with one pixel, but also batch processe the abundant images.
 - Combine operation. The data samples need to concatenate the object photo and the corresponding sketches. After the HED and post process procedure, we adopt this  [python script](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/blob/master/docs/datasets.md) from pix2pix to generate training data in the form of pairs of images {A,B}, where A and B are two different depictions of the same underlying scene. The training samples are as follow:
 
-**Some training samples from different categories.**
 
 ![handbag](https://github.com/diaosiji/CRUI/blob/main/readme_fig/training_samples/27_AB.jpg) 
 
@@ -33,6 +34,10 @@ We construct a dataset to meet the requirements of experiment setting. To train 
 ![1](https://github.com/diaosiji/CRUI/blob/main/readme_fig/augment_samples/backpack_00228.png) ![2](https://github.com/diaosiji/CRUI/blob/main/readme_fig/augment_samples/calculator_00171.png) ![3](https://github.com/diaosiji/CRUI/blob/main/readme_fig/augment_samples/computer_00142.png)
 
 ![4](https://github.com/diaosiji/CRUI/blob/main/readme_fig/augment_samples/headphones_00148.png) ![5](https://github.com/diaosiji/CRUI/blob/main/readme_fig/augment_samples/helmet_00126.png) ![6](https://github.com/diaosiji/CRUI/blob/main/readme_fig/augment_samples/mouse_00190.png)
+
+### Dataset and pretrained models download
+
+We have published our datasets and pretrained models for common interests of researching. You can download them [here]().
 
 ## Training Models
 
