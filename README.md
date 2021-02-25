@@ -37,7 +37,7 @@ We construct a dataset to meet the requirements of experiment setting. To train 
 
 ### Dataset and pretrained models download
 
-We have published our datasets and pretrained models for common interests of researching. You can download them [here]().
+We have published our datasets and pretrained models on google drive for common interests of researching. We probide 11 object category, you can download them at [here](). And also, we provide 11 pretrained models, you can download them at [here](). 
 
 ## Training Models
 
